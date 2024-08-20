@@ -9,7 +9,7 @@ const Blog = () => {
                         <div className="blogs-wrapper">
                             <div className="section-heading-middle">
                                 <div className="sub-heading d-flex align-items-center mx-auto">
-                                    <img src="src/assets/img/orangeDot.png" alt="orange-dot"/>
+                                    <img src="sanofio/src/assets/img/orangeDot.png" alt="orange-dot"/>
                                         <p>My Blog</p>
                                 </div>
                                 <h2 className="black-color line-height-3 h2 text-uppercase text-center">
@@ -26,7 +26,7 @@ const Blog = () => {
                                             <div className="single-blog-details">
                                                 <div className="single-blog-featured-img-container row-mobile-margin mt-50">
                                                     <img className="single-blog-featured-img img-fluid"
-                                                        src="src/assets/img/singleBlogFeatured.png" alt="featured image"/>
+                                                        src="sanofio/src/assets/img/singleBlogFeatured.png" alt="featured image"/>
                                                 </div>
                                                 <div
                                                     className="single-blog-meta-container mt-50 row-mobile-margin d-flex align-items-center">
@@ -68,7 +68,7 @@ const Blog = () => {
                                                         can procure him
                                                     </p>
                                                     <div className="blog-content-body-quotation mt-50">
-                                                        <img className="blog-quotation-icon mb-30" src="src/assets/img/quotation.png"
+                                                        <img className="blog-quotation-icon mb-30" src="sanofio/src/assets/img/quotation.png"
                                                             alt="quotation icon"/>
                                                             <blockquote
                                                                 className="h4 line-height-6 fw-600 black-color mb-50 row-mobile-margin">
@@ -86,7 +86,7 @@ const Blog = () => {
                                                     <div className="row mt-100 align-items-center blog-contents-check-mark">
                                                         <div className="col-12 col-lg-6">
                                                             <img className="w-100 single-blog-inner-img"
-                                                                src="src/assets/img/blogEleven.png" alt="blog page inner image"/>
+                                                                src="sanofio/src/assets/img/blogEleven.png" alt="blog page inner image"/>
                                                         </div>
                                                         <div className="col-12 col-lg-6">
                                                             <div className="single-blog-body-list pl-80">
@@ -195,7 +195,7 @@ const Blog = () => {
                                                     <div
                                                         className="single-blog-social-items col-12 col-lg-7 d-flex align-items-center justify-content-lg-end flex-wrap">
                                                         <div className="d-flex align-items-center pb-3 pb-sm-0">
-                                                            <img className="me-2" src="src/assets/img/shareBlog.png" alt="share icon"/>
+                                                            <img className="me-2" src="sanofio/src/assets/img/shareBlog.png" alt="share icon"/>
                                                                 <a className="p secondary-black fw-400 line-height-7"
                                                                     href="blog.html">Share</a>
                                                         </div>
@@ -223,7 +223,7 @@ const Blog = () => {
                                                                     <div className="col-12 col-sm-2">
                                                                         <div className="img-overlay">
                                                                             <img className="img-fluid"
-                                                                                src="src/assets/img/commenterOne.png"
+                                                                                src="sanofio/src/assets/img/commenterOne.png"
                                                                                 alt="commenter image"/>
                                                                         </div>
                                                                     </div>
@@ -297,7 +297,7 @@ const Blog = () => {
                                                                                     <div className="col-12 col-sm-2">
                                                                                         <div className="img-overlay">
                                                                                             <img className="img-fluid"
-                                                                                                src="src/assets/img/replyerOne.png"
+                                                                                                src="sanofio/src/assets/img/replyerOne.png"
                                                                                                 alt="commenter image"/>
                                                                                         </div>
                                                                                     </div>
@@ -383,7 +383,7 @@ const Blog = () => {
                                                                     <div className="col-12 col-sm-2">
                                                                         <div className="img-overlay">
                                                                             <img className="img-fluid"
-                                                                                src="src/assets/img/commenterTwo.png"
+                                                                                src="sanofio/src/assets/img/commenterTwo.png"
                                                                                 alt="commenter image"/>
                                                                         </div>
                                                                     </div>
@@ -457,7 +457,7 @@ const Blog = () => {
                                                                                     <div className="col-12 col-sm-2">
                                                                                         <div className="img-overlay">
                                                                                             <img className="img-fluid"
-                                                                                                src="src/assets/img/replyerTwo.png"
+                                                                                                src="sanofio/src/assets/img/replyerTwo.png"
                                                                                                 alt="commenter image"/>
                                                                                         </div>
                                                                                     </div>
@@ -578,7 +578,7 @@ const Blog = () => {
                                 <div className="card p-0 blog-card">
 
                                     <div data-bs-toggle="modal" data-bs-target="#blogModalOne" className="img-overlay">
-                                        <img src="src/assets/img/blogOne.png" className="card-img-top img-fluid blog-card-img"
+                                        <img src="sanofio/src/assets/img/blogOne.png" className="card-img-top img-fluid blog-card-img"
                                             alt="blog image"/>
                                     </div>
                                     <div className="card-body blog-card-body">
@@ -603,7 +603,7 @@ const Blog = () => {
                                 <div className="card p-0 blog-card">
 
                                     <div data-bs-toggle="modal" data-bs-target="#blogModalOne" className="img-overlay">
-                                        <img src="src/assets/img/blogTwo.png" className="card-img-top img-fluid blog-card-img"
+                                        <img src="sanofio/src/assets/img/blogTwo.png" className="card-img-top img-fluid blog-card-img"
                                             alt="blog image"/>
                                     </div>
                                     <div className="card-body blog-card-body">
@@ -628,7 +628,7 @@ const Blog = () => {
                                 <div className="card p-0 blog-card">
 
                                     <div data-bs-toggle="modal" data-bs-target="#blogModalOne" className="img-overlay">
-                                        <img src="src/assets/img/blogThree.png" className="card-img-top img-fluid blog-card-img"
+                                        <img src="sanofio/src/assets/img/blogThree.png" className="card-img-top img-fluid blog-card-img"
                                             alt="blog image"/>
                                     </div>
                                     <div className="card-body blog-card-body">

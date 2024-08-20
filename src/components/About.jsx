@@ -9,14 +9,14 @@ const About = () => {
                         <div className="row align-items-center">
                             <div className="about-image-col col-12 col-lg-6 text-center">
                                 <div className="img-overlay mx-auto mx-lg-0">
-                                    <img className="img-fluid" src="src/assets/img/about.png" alt="about image" />
+                                    <img className="img-fluid" src="sanofio/src/assets/img/about.png" alt="about image" />
                                 </div>
                             </div>
                             <div className="about-text-col col-12 col-lg-6">
                                 <div className="about-text-top">
                                     <div className="section-heading">
                                         <div className="sub-heading d-flex align-items-center">
-                                            <img src="src/assets/img/orangeDot.png" alt="orange-dot" />
+                                            <img src="sanofio/src/assets/img/orangeDot.png" alt="orange-dot" />
                                             <p>About Me</p>
                                         </div>
                                         <h2 className="black-color line-height-3 h2">
@@ -30,7 +30,7 @@ const About = () => {
                                 <div className="row row-mobile-margin gy-3 gy-sm-0 mt-50">
                                     <div className="col-12 col-sm-6 col-lg-6 d-flex align-items-center">
                                         <div className="mr-10">
-                                            <img src="src/assets/img/aboutIconOne.png" alt="about icon one" />
+                                            <img src="sanofio/src/assets/img/aboutIconOne.png" alt="about icon one" />
                                         </div>
                                         <div className="about-complete-project">
                                             <h4 className="fw-700 orange-color h4"><span className="counter">50</span>+</h4>
@@ -39,7 +39,7 @@ const About = () => {
                                     </div>
                                     <div className="col-12 col-sm-6 col-lg-6 d-flex align-items-center">
                                         <div className="mr-10">
-                                            <img src="src/assets/img/aboutIconTwo.png" alt="about icon two" />
+                                            <img src="sanofio/src/assets/img/aboutIconTwo.png" alt="about icon two" />
                                         </div>
                                         <div className="about-years-experience">
                                             <h4 className="fw-700 orange-color h4"><span className="counter">6</span>+</h4>
@@ -83,7 +83,7 @@ const About = () => {
                                     </div>
                                 </div>
                                 <a data-aos="fade-up" data-aos-delay="100" data-aos-duration="1500"
-                                    className="btn btn_effect home-banner-btn orange-btn mt-3" href="src/assets/document/sandeep-dodiya-cv.pdf" target='_blank'><span
+                                    className="btn btn_effect home-banner-btn orange-btn mt-3" href="sanofio/src/assets/document/sandeep-dodiya-cv.pdf" target='_blank'><span
                                         className="position-relative z-1">Download My CV</span>
                                 </a>
                             </div>

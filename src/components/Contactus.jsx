@@ -98,7 +98,7 @@ const Contactus = () => {
                         <div className="home-contact-wrapper">
                             <div className="section-heading-middle">
                                 <div className="sub-heading d-flex align-items-center mx-auto">
-                                    <img src="src/assets/img/orangeDot.png" alt="orange-dot" />
+                                    <img src="sanofio/src/assets/img/orangeDot.png" alt="orange-dot" />
                                     <p>My Contact</p>
                                 </div>
                                 <h2 className="black-color line-height-3 h2 text-uppercase text-center">

@@ -9,7 +9,7 @@ const Footer = () => {
                         <div className="row">
                             <div className="col-12 col-sm-6 col-lg-4 mt-5 mt-lg-0">
                                 <div className="footer-col-one">
-                                    <img src="src/assets/img/logo-white.svg" className="footer-logo" alt="footer logo" />
+                                    <img src="sanofio/src/assets/img/logo-white.svg" className="footer-logo" alt="footer logo" />
                                     <p className="p text-white line-height-7 mb-30 footer-col-one-texts">
                                         With over 5 years in the IT industry, I am a web designer and frontend developer specializing in creating innovative, high-performing websites.
                                     </p>

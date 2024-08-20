@@ -6,7 +6,6 @@ import About from './About'
 import Service from './Service'
 import Resume from './Resume'
 import Myportfolio from './Myportfolio';
-import Blog from './Blog';
 import Contactus from './Contactus';
 import Footer from './Footer';
 
