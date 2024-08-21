@@ -1,38 +1,43 @@
 import React, { useState } from 'react';
+import orangeDot from '/assets/img/orangeDot.png';
+import portfolioOneImg from '/assets/img/portfolioOne.png';
+import portfolioFiveImg from '/assets/img/portfolioFive.png';
+import portfolioFourImg from '/assets/img/portfolioFour.png';
+// import orangeDotImg from '../assets/img/orangeDot.png';
+
 
 // Sample portfolio data
 const portfolioItems = [
-    { id: 'portfolioOne_1', category: 'ui', title: 'Care blue', description: 'Design Care blue website in bootstrap.', imgSrc: 'src/assets/img/portfolioOne.png' },
-    { id: 'portfolioOne_2', category: 'ui', title: 'Lyno', description: 'Design Lyno website in bootstrap.', imgSrc: 'src/assets/img/portfolioOne.png' },
-    { id: 'portfolioFive_1', category: 'app', title: 'Oldme', description: 'Oldme Application design in Adobe Xd in innopad solution.', imgSrc: 'src/assets/img/portfolioFive.png' },
-    { id: 'portfolioFive_2', category: 'app', title: 'Pelipost', description: 'Pelipost Application design in Adobe Xd in innopad solution.', imgSrc: 'src/assets/img/portfolioFive.png' },
-    { id: 'portfolioFour_1', category: 'web', title: 'Hyperlinkinfosytem', description: 'Design a company website for Hyperlinkinfosytem in bootstrap.', imgSrc: 'src/assets/img/portfolioFour.png' },
-
-    { id: 'portfolioFour_2', category: 'web', title: 'Baraez', description: 'Design Baraez Website in bootstrap.', imgSrc: 'src/assets/img/portfolioFour.png' },
-    { id: 'portfolioFour_3', category: 'web', title: 'Beauty', description: 'Design Beauty Website in bootstrap.', imgSrc: 'src/assets/img/portfolioFour.png' },
-    { id: 'portfolioFour_4', category: 'web', title: 'Care blue', description: 'Design Care blue website in bootstrap.', imgSrc: 'src/assets/img/portfolioFour.png' },
-    { id: 'portfolioFour_5', category: 'web', title: 'Eliox', description: 'Design Eliox website in bootstrap.', imgSrc: 'src/assets/img/portfolioFour.png' },
-    { id: 'portfolioFour_6', category: 'web', title: 'Boondokker website', description: 'Design Boondokker website in bootstrap with php.', imgSrc: 'src/assets/img/portfolioFour.png' },
-    { id: 'portfolioFour_7', category: 'web', title: 'Erasustainm website', description: 'Design Erasustainm website in bootstrap.', imgSrc: 'src/assets/img/portfolioFour.png' },
-    { id: 'portfolioFour_8', category: 'web', title: 'Foodini website', description: 'Design Foodini website in bootstrap with php.', imgSrc: 'src/assets/img/portfolioFour.png' },
-    { id: 'portfolioFour_9', category: 'web', title: 'Greenscan website', description: 'Design Greenscan website in bootstrap with React.', imgSrc: 'src/assets/img/portfolioFour.png' },
-    { id: 'portfolioFour_10', category: 'web', title: 'Homey website', description: 'Design Homey website in bootstrap.', imgSrc: 'src/assets/img/portfolioFour.png' },
-    { id: 'portfolioFour_11', category: 'web', title: 'Insight Guide website', description: 'Design Insight Guide website in bootstrap with php.', imgSrc: 'src/assets/img/portfolioFour.png' },
-    { id: 'portfolioFour_12', category: 'web', title: 'Instacare website', description: 'Design Instacare in bootstrap.', imgSrc: 'src/assets/img/portfolioFour.png' },
-    { id: 'portfolioFour_13', category: 'web', title: 'Investment Dojo website', description: 'Design Investment Dojo in bootstrap.', imgSrc: 'src/assets/img/portfolioFour.png' },
-    { id: 'portfolioFour_14', category: 'web', title: 'Invoice Assist website', description: 'Design  Invoice Assist in bootstrap.', imgSrc: 'src/assets/img/portfolioFour.png' },
-    { id: 'portfolioFour_15', category: 'web', title: 'Jigra website', description: 'Design Jigra website in bootstrap.', imgSrc: 'src/assets/img/portfolioFour.png' },
-    { id: 'portfolioFour_16', category: 'web', title: 'Smartgen website', description: 'Design Smartgen website in bootstrap.', imgSrc: 'src/assets/img/portfolioFour.png' },
-    { id: 'portfolioFour_17', category: 'web', title: 'Lyno website', description: 'Design Lyno website in bootstrap.', imgSrc: 'src/assets/img/portfolioFour.png' },
-    { id: 'portfolioFour_18', category: 'web', title: 'Stocket website', description: 'Design Stocket website in bootstrap.', imgSrc: 'src/assets/img/portfolioFour.png' },
-    { id: 'portfolioFour_19', category: 'web', title: 'Taze website', description: 'Design Taze website in bootstrap.', imgSrc: 'src/assets/img/portfolioFour.png' },
-    { id: 'portfolioFour_20', category: 'web', title: 'Vendor website', description: 'Design Vendor website in bootstrap.', imgSrc: 'src/assets/img/portfolioFour.png' },
-    { id: 'portfolioFour_21', category: 'web', title: 'Pornswape website', description: 'Design Pornswape website in bootstrap.', imgSrc: 'src/assets/img/portfolioFour.png' },
-    { id: 'portfolioFour_22', category: 'web', title: 'DanberKidz website', description: 'Design DanberKidz website in bootstrap and wordpress', imgSrc: 'src/assets/img/portfolioFour.png' },
-    { id: 'portfolioFour_23', category: 'web', title: 'ROMUSIC website', description: 'Design ROMUSIC website in bootstrap with React.', imgSrc: 'src/assets/img/portfolioFour.png' },
-    { id: 'portfolioFour_24', category: 'web', title: 'Uplift website', description: 'Design Uplift website in bootstrap with React.', imgSrc: 'src/assets/img/portfolioFour.png' },
-    { id: 'portfolioFour_25', category: 'web', title: 'Mizzle website', description: 'Design Mizzle website in bootstrap with React.', imgSrc: 'src/assets/img/portfolioFour.png' },
-    { id: 'portfolioFour_26', category: 'web', title: 'Portfolio website', description: 'Design Portfolio in bootstrap with React.', imgSrc: 'src/assets/img/portfolioFour.png' },
+    { id: 'portfolioOne_1', category: 'ui', title: 'Care blue', description: 'Design Care blue website in bootstrap.', imgSrc: portfolioOneImg },
+    { id: 'portfolioOne_2', category: 'ui', title: 'Lyno', description: 'Design Lyno website in bootstrap.', imgSrc: portfolioOneImg },
+    { id: 'portfolioFive_1', category: 'app', title: 'Oldme', description: 'Oldme Application design in Adobe Xd in innopad solution.', imgSrc: portfolioFiveImg },
+    { id: 'portfolioFive_2', category: 'app', title: 'Pelipost', description: 'Pelipost Application design in Adobe Xd in innopad solution.', imgSrc: portfolioFiveImg },
+    { id: 'portfolioFour_1', category: 'web', title: 'Hyperlinkinfosytem', description: 'Design a company website for Hyperlinkinfosytem in bootstrap.', imgSrc: portfolioFourImg },
+    { id: 'portfolioFour_2', category: 'web', title: 'Baraez', description: 'Design Baraez Website in bootstrap.', imgSrc: portfolioFourImg },
+    { id: 'portfolioFour_3', category: 'web', title: 'Beauty', description: 'Design Beauty Website in bootstrap.', imgSrc: portfolioFourImg },
+    { id: 'portfolioFour_4', category: 'web', title: 'Care blue', description: 'Design Care blue website in bootstrap.', imgSrc: portfolioFourImg },
+    { id: 'portfolioFour_5', category: 'web', title: 'Eliox', description: 'Design Eliox website in bootstrap.', imgSrc: portfolioFourImg },
+    { id: 'portfolioFour_6', category: 'web', title: 'Boondokker website', description: 'Design Boondokker website in bootstrap with php.', imgSrc: portfolioFourImg },
+    { id: 'portfolioFour_7', category: 'web', title: 'Erasustainm website', description: 'Design Erasustainm website in bootstrap.', imgSrc: portfolioFourImg },
+    { id: 'portfolioFour_8', category: 'web', title: 'Foodini website', description: 'Design Foodini website in bootstrap with php.', imgSrc: portfolioFourImg },
+    { id: 'portfolioFour_9', category: 'web', title: 'Greenscan website', description: 'Design Greenscan website in bootstrap with React.', imgSrc: portfolioFourImg },
+    { id: 'portfolioFour_10', category: 'web', title: 'Homey website', description: 'Design Homey website in bootstrap.', imgSrc: portfolioFourImg },
+    { id: 'portfolioFour_11', category: 'web', title: 'Insight Guide website', description: 'Design Insight Guide website in bootstrap with php.', imgSrc: portfolioFourImg },
+    { id: 'portfolioFour_12', category: 'web', title: 'Instacare website', description: 'Design Instacare in bootstrap.', imgSrc: portfolioFourImg },
+    { id: 'portfolioFour_13', category: 'web', title: 'Investment Dojo website', description: 'Design Investment Dojo in bootstrap.', imgSrc: portfolioFourImg },
+    { id: 'portfolioFour_14', category: 'web', title: 'Invoice Assist website', description: 'Design Invoice Assist in bootstrap.', imgSrc: portfolioFourImg },
+    { id: 'portfolioFour_15', category: 'web', title: 'Jigra website', description: 'Design Jigra website in bootstrap.', imgSrc: portfolioFourImg },
+    { id: 'portfolioFour_16', category: 'web', title: 'Smartgen website', description: 'Design Smartgen website in bootstrap.', imgSrc: portfolioFourImg },
+    { id: 'portfolioFour_17', category: 'web', title: 'Lyno website', description: 'Design Lyno website in bootstrap.', imgSrc: portfolioFourImg },
+    { id: 'portfolioFour_18', category: 'web', title: 'Stocket website', description: 'Design Stocket website in bootstrap.', imgSrc: portfolioFourImg },
+    { id: 'portfolioFour_19', category: 'web', title: 'Taze website', description: 'Design Taze website in bootstrap.', imgSrc: portfolioFourImg },
+    { id: 'portfolioFour_20', category: 'web', title: 'Vendor website', description: 'Design Vendor website in bootstrap.', imgSrc: portfolioFourImg },
+    { id: 'portfolioFour_21', category: 'web', title: 'Pornswape website', description: 'Design Pornswape website in bootstrap.', imgSrc: portfolioFourImg },
+    { id: 'portfolioFour_22', category: 'web', title: 'DanberKidz website', description: 'Design DanberKidz website in bootstrap and wordpress', imgSrc: portfolioFourImg },
+    { id: 'portfolioFour_23', category: 'web', title: 'ROMUSIC website', description: 'Design ROMUSIC website in bootstrap with React.', imgSrc: portfolioFourImg },
+    { id: 'portfolioFour_24', category: 'web', title: 'Uplift website', description: 'Design Uplift website in bootstrap with React.', imgSrc: portfolioFourImg },
+    { id: 'portfolioFour_25', category: 'web', title: 'Mizzle website', description: 'Design Mizzle website in bootstrap with React.', imgSrc: portfolioFourImg },
+    { id: 'portfolioFour_26', category: 'web', title: 'Portfolio website', description: 'Design Portfolio in bootstrap with React.', imgSrc: portfolioFourImg },
 ];
 
 const PortfolioItem = ({ item }) => {
@@ -94,7 +99,7 @@ const Myportfolio = () => {
                         <div className="portfolio-wrapper">
                             <div className="section-heading-middle">
                                 <div className="sub-heading d-flex align-items-center mx-auto">
-                                    <img src="src/assets/img/orangeDot.png" alt="orange-dot" />
+                                    <img src={orangeDot} alt="orange-dot" />
                                     <p>My Portfolio</p>
                                 </div>
                                 <h2 className="black-color line-height-3 h2 text-uppercase text-center">

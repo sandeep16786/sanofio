@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const data = await response.json();
         return data.version || '';
       } catch (error) {
-        console.error('Failed to fetch version:', error);
+        console.log('Failed to fetch version:', error);
         return ''; // Fallback to an empty string if fetching fails
       }
     }

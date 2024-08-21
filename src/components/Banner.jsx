@@ -1,4 +1,11 @@
 import React from 'react'
+import orangeDot from '/assets/img/orangeDot.png';
+import particleOne from '/assets/img/particleOne.png';
+import particleTwo from '/assets/img/particleTwo.png';
+import bannerImg from '/assets/img/bannerImg.png';
+import homeNannerShape from '/assets/img/homeNannerShape.png';
+
+
 
 const Banner = () => {
     return (
@@ -9,7 +16,7 @@ const Banner = () => {
                         <div className="home-banner-wrapper row align-items-center">
                             <div className="col-12 col-lg-6 col-xl-7 home-banner-text-col position-relative">
                                 <div className="sub-heading d-flex align-items-center">
-                                    <img src="src/assets/img/orangeDot.png" alt="orange-dot" />
+                                    <img src={orangeDot} alt="orange-dot" />
                                     <p>I AM Sr.Frontend developer</p>
                                 </div>
                                 <div className="animate-heading">
@@ -29,23 +36,23 @@ const Banner = () => {
                                 </a>
                                 <div className="banner-particle-one-container">
                                     <img className="position-absolute banner-particle-one d-none d-lg-inline"
-                                        src="src/assets/img/particleOne.png" alt="banner particle one" />
+                                        src={particleOne} alt="banner particle one" />
                                 </div>
                                 <div className="banner-particle-two-container">
                                     <img className="position-absolute banner-particle-two delay-one"
-                                        src="src/assets/img/particleTwo.png" alt="banner particle two" />
+                                        src={particleTwo} alt="banner particle two" />
                                 </div>
                             </div>
                             <div className="col-12 col-lg-6 col-xl-5 text-center position-relative home-banner-img-col">
                                 <div className="banner-particle-one-container">
                                     <img className="position-absolute banner-particle-one d-lg-none"
-                                        src="src/assets/img/particleOne.png" alt="banner particle one" />
+                                        src={particleOne} alt="banner particle one" />
                                 </div>
 
                                 <img className="position-absolute home-banner-shape bg-move-3d"
-                                    src="src/assets/img/homeNannerShape.png" alt="banner-shape" />
+                                    src={homeNannerShape} alt="banner-shape" />
                                 <img className="img-fluid position-relative z-index-10 home-banner-img"
-                                    src="src/assets/img/bannerImg.png" alt="banner-image" />
+                                    src={bannerImg} alt="banner-image" />
                             </div>
                         </div>
                     </div>

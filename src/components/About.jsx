@@ -1,4 +1,9 @@
 import React from 'react'
+import aboutImage from '/assets/img/about.png';
+import orangeDot from '/assets/img/orangeDot.png';
+import aboutIconOne from '/assets/img/aboutIconOne.png';
+import aboutIconTwo from '/assets/img/aboutIconTwo.png';
+
 
 const About = () => {
     return (
@@ -9,14 +14,14 @@ const About = () => {
                         <div className="row align-items-center">
                             <div className="about-image-col col-12 col-lg-6 text-center">
                                 <div className="img-overlay mx-auto mx-lg-0">
-                                    <img className="img-fluid" src="src/assets/img/about.png" alt="about image" />
+                                    <img className="img-fluid" src={aboutImage} alt="about image" />
                                 </div>
                             </div>
                             <div className="about-text-col col-12 col-lg-6">
                                 <div className="about-text-top">
                                     <div className="section-heading">
                                         <div className="sub-heading d-flex align-items-center">
-                                            <img src="src/assets/img/orangeDot.png" alt="orange-dot" />
+                                            <img src={orangeDot} alt="orange-dot" />
                                             <p>About Me</p>
                                         </div>
                                         <h2 className="black-color line-height-3 h2">
@@ -30,7 +35,7 @@ const About = () => {
                                 <div className="row row-mobile-margin gy-3 gy-sm-0 mt-50">
                                     <div className="col-12 col-sm-6 col-lg-6 d-flex align-items-center">
                                         <div className="mr-10">
-                                            <img src="src/assets/img/aboutIconOne.png" alt="about icon one" />
+                                            <img src={aboutIconOne} alt="about icon one" />
                                         </div>
                                         <div className="about-complete-project">
                                             <h4 className="fw-700 orange-color h4"><span className="counter">50</span>+</h4>
@@ -39,7 +44,7 @@ const About = () => {
                                     </div>
                                     <div className="col-12 col-sm-6 col-lg-6 d-flex align-items-center">
                                         <div className="mr-10">
-                                            <img src="src/assets/img/aboutIconTwo.png" alt="about icon two" />
+                                            <img src={aboutIconTwo} alt="about icon two" />
                                         </div>
                                         <div className="about-years-experience">
                                             <h4 className="fw-700 orange-color h4"><span className="counter">6</span>+</h4>

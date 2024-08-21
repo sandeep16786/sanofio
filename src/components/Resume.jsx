@@ -1,4 +1,6 @@
 import React from 'react'
+import orangeDot from '/assets/img/orangeDot.png';
+
 
 const Resume = () => {
     return (
@@ -9,7 +11,7 @@ const Resume = () => {
                         <div className="resume-wrapper">
                             <div className="section-heading-middle">
                                 <div className="sub-heading d-flex align-items-center mx-auto">
-                                    <img src="src/assets/img/orangeDot.png" alt="orange-dot" />
+                                    <img src={orangeDot} alt="orange-dot" />
                                     <p>My Resume</p>
                                 </div>
                                 <h2 className="black-color line-height-3 h2 text-uppercase text-center">
