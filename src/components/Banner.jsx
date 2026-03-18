@@ -29,7 +29,7 @@ const Banner = () => {
                                     </h1>
                                 </div>
                                 <p className="h5 line-height-7 mt-20 secondary-black fw-400">
-                                    Over 5+ years of experience in IT industry mainly at web designer along with HTML5, CSS3, JQuery, Bootstrap, Wordpress, React Design, Vite + React Design Figma, Photoshop, illustrater. Touch framework. Responsibilities include designing a website with proper technical vision and new features. Ensuring performance, code quality and responsive website.
+                                    Senior Front-End Developer and UI/UX Designer with 7+ years of experience building scalable, high-performance, and user-centric web applications. Expertise in React.js, Next.js, and modern UI frameworks with a strong focus on performance, SEO, and responsive design. Proven ability to deliver impactful solutions and collaborate with cross-functional teams.
                                 </p>
                                 <a className="btn_effect btn home-banner-btn orange-btn mt-50" href="src/assets/document/sandeep-dodiya-cv.pdf" target='_blank'><span
                                     className="z-1 position-relative">Download My CV</span>
