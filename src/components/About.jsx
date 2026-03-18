@@ -29,7 +29,7 @@ const About = () => {
                                         </h2>
                                     </div>
                                     <p className="secondary-black line-height-7 mt-20">
-                                        With over 5+ years of experience in the IT industry, I am a skilled web designer and frontend developer dedicated to creating innovative and high-performing websites. My expertise spans HTML5, CSS3, jQuery, Bootstrap, Wordpress, React, and the Touch framework. I excel in designing and developing websites with a clear technical vision and incorporating new features while ensuring optimal performance, code quality, and responsive design. My portfolio showcases a range of projects, including company websites, marketing landing pages, and mobile UI designs, all crafted with a focus on delivering an exceptional user experience. Currently, I am engaged in various design and development projects, continuously leveraging my skills to contribute to cutting-edge web solutions.
+                                        Senior Front-End Developer and UI/UX Designer with 7+ years of experience building responsive, scalable, and user-centric web applications. Expertise in HTML5, CSS3, JavaScript, React.js, Next.js, and modern UI frameworks. Proven track record of improving performance, SEO, and user experience across web platforms. Strong collaborator experienced in working with cross-functional teams and CMS platforms such as WordPress.
                                     </p>
                                 </div>
                                 <div className="row row-mobile-margin gy-3 gy-sm-0 mt-50">
