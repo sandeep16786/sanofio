@@ -20,7 +20,7 @@ const Banner = () => {
                                     <p>I AM Sr.Frontend developer</p>
                                 </div>
                                 <div className="animate-heading">
-                                    <h1 className="black-color h1 home-one-title ah-headline">Sandeep Dodiya Creative Design and Web <span
+                                    <h1 className="black-color h1 home-one-title ah-headline">Creative Design and Web <span
                                         className="orange-color"><span className="ah-words-wrapper">
                                             <b className="is-visible"> Developer</b>
                                             {/* <b>Design</b> */}
