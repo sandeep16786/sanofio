@@ -31,7 +31,7 @@ const Banner = () => {
                                 <p className="h5 line-height-7 mt-20 secondary-black fw-400">
                                     Senior Front-End Developer and UI/UX Designer with 7+ years of experience building scalable, high-performance, and user-centric web applications. Expertise in React.js, Next.js, and modern UI frameworks with a strong focus on performance, SEO, and responsive design. Proven ability to deliver impactful solutions and collaborate with cross-functional teams.
                                 </p>
-                                <a className="btn_effect btn home-banner-btn orange-btn mt-50" href="src/assets/document/sandeep-dodiya-cv.pdf" target='_blank'><span
+                                <a className="btn_effect btn home-banner-btn orange-btn mt-50" href="https://sanofio.netlify.app/assets/document/sandeep-dodiya-cv.pdf" target='_blank'><span
                                     className="z-1 position-relative">Download My CV</span>
                                 </a>
                                 <div className="banner-particle-one-container">

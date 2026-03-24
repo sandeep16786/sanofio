@@ -88,7 +88,7 @@ const About = () => {
                                     </div>
                                 </div>
                                 <a data-aos="fade-up" data-aos-delay="100" data-aos-duration="1500"
-                                    className="btn btn_effect home-banner-btn orange-btn mt-3" href="https://github.com/sandeep16786/sanofio/blob/251047d044731b8e4a89bf40a743841e72b84597/public/assets/document/sandeep-dodiya-cv.pdf" target='_blank'><span
+                                    className="btn btn_effect home-banner-btn orange-btn mt-3" href="https://sanofio.netlify.app/assets/document/sandeep-dodiya-cv.pdf" target='_blank'><span
                                         className="position-relative z-1">Download My CV</span>
                                 </a>
                             </div>
