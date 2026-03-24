@@ -13,7 +13,7 @@ const Footer = () => {
                                 <div className="footer-col-one">
                                     <img src={logowhite} className="footer-logo" alt="footer logo" />
                                     <p className="p text-white line-height-7 mb-30 footer-col-one-texts">
-                                        With over 5 years in the IT industry, I am a web designer and frontend developer specializing in creating innovative, high-performing websites.
+                                        With over 7 years in the IT industry, I am a web designer with frontend developer specializing in creating innovative, high-performing websites.
                                     </p>
                                 </div>
                             </div>
