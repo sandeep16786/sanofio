@@ -88,7 +88,7 @@ const About = () => {
                                     </div>
                                 </div>
                                 <a data-aos="fade-up" data-aos-delay="100" data-aos-duration="1500"
-                                    className="btn btn_effect home-banner-btn orange-btn mt-3" href="src/assets/document/sandeep-dodiya-cv.pdf" target='_blank'><span
+                                    className="btn btn_effect home-banner-btn orange-btn mt-3" href="public/assets/document/sandeep-dodiya-cv.pdf" target='_blank'><span
                                         className="position-relative z-1">Download My CV</span>
                                 </a>
                             </div>
